@@ -8,10 +8,9 @@ layout: text-left-image-right
 index: 3
 ---
 
-1.	ARC creation for your own
+## 1. ARC creation for your own
 
-There are several ways to start your own ARC. You can simply create the ARC structure *by hand* using your computers file explorer. You can start from an ARC template [available in the DataHUB][kb-datahub-template]. Or you can let one of DataPLANT's tools ([ARC Commander][kb-ArcCommander]<!--, [ARCitect][kb-ARCitect] -->) assist you in creation of the ARC.
-
+There are several ways to start your own ARC. You can simply create the [ARC structure][kb-arc-structure] *by hand* using your computers file explorer. You can start from an ARC template [available in the DataHUB][kb-datahub-template]. Or you can let one of DataPLANT's tools ([ARC Commander][kb-ArcCommander]<!--, [ARCitect][kb-ARCitect] -->) assist you in creation of the ARC.
 
 <!-- beginning with the most obvious being to manually open the required folders and files in your explorer. 
 
@@ -19,23 +18,28 @@ There are several ways to start your own ARC. You can simply create the ARC stru
 - Cloud (Gitlab Template)
 - Tool-assisted (ARC Commander/ARCitect) -->
 
+## 2.	Connection to a hub 
 
-2.	Connection to a hub 
-
-The DataHUB allows remote working, including backup and version control of your data.
+DataPLANT´s [DataHUB][kb-DataHub] allows remote working, including backup and version control of your data.
 
 In case your ARC has been started manually and not yet made available remotely via a cloud, the next step towards FAIR is to create the link to a hub allowing flexible remote working, including backup and version control of your data.
-for flexible remote working, including backup and [version control][kb-version-control] of your data.
+for flexible remote working, including backup and version control of your data.
 
-3.	Invitation of your supervisor
+## 3.	Invitation of your supervisor
 
 Getting feedback customized to your data from your supervisor, regardless where they are, becomes simple by [inviting more people][kb-invite-collaborators] onto your ARC.
 
-4.	Collaboration with multiple lab partners/Collaboration with a facility/computational expert
-- Collect input from your favorite colleagues and other experts to push your research to the next level.
-5.	Publish your ARC
-- Collect input from the community
-6.	ARC as Data Publication
+## 4.	Collaboration with multiple lab partners/Collaboration with a facility/computational expert
+
+Generating data is typically a group effort involving lab scientists, computational specialists, facilities, and others. Since your ARC is a remotely accessible repository, you can invite additional collaborators to contribute directly.
+<!--- - Collect input from your favorite colleagues and other experts to push your research to the next level.-->
+
+## 5.	Publish your ARC
+
+A fresh perspective on a package of data can be beneficial, which is why it may be advantageous to publish your ARC, allowing experts from a wide range of disciplines to contribute in a provenance-tracked way, generating knowledge gain.
+
+<!--- - Collect input from the community-->
+## 6.	ARC as Data Publication
 - Your ARC is a FAIR digital object already.
 - ...be FAIR
 
@@ -45,13 +49,16 @@ Getting feedback customized to your data from your supervisor, regardless where 
 [kb-arcitect]: 
 [kb-version-control]:
 
+<!--
+TODO Missing KB-Articles:
+[kb-arc-structure] 
+-->
 
 <!-- 
 knowledgebase existing links
 -->
 
 [kb-invite-collaborators]: https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/implementation/DataHub.html#access-management-sharing-data-the-good-way
-
 [kb-AnnotatedResearchContext]: https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/implementation/AnnotatedResearchContext.html
 [kb-AnnotationPatterns]: https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/implementation/AnnotationPatterns.html
 [kb-ArcCommander]: https://nfdi4plants.org/nfdi4plants.knowledgebase/docs/implementation/ArcCommander.html
