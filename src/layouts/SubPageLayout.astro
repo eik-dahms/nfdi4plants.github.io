@@ -1,6 +1,6 @@
 ---
 import Layout from "./Layout.astro";
-import SubpageHero from '~/components/SubPageHero.astro';
+import SubPageHero from '~/components/SubPageHero.astro';
 import type { CollectionEntry } from 'astro:content';
 import Features from "~/components/widgets/Features.astro";
 import { bgColorMap, textColorMap } from "~/statics";
@@ -31,7 +31,7 @@ const parsedCards = cards.map((card) => ({
 
 ---
 <Layout title={`DataPLANT - ${title}`}>
-  <SubpageHero hero={hero}></SubPageHero>
+  <SubPageHero hero={hero}></SubPageHero>
   <Features
     title={hero.data.title}
     subtitle={hero.data.subtitle}
